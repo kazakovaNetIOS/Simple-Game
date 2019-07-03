@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FFF386B922CB84B000BA629A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF386B822CB84B000BA629A /* AppDelegate.swift */; };
-		FFF386BB22CB84B000BA629A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF386BA22CB84B000BA629A /* ViewController.swift */; };
-		FFF386BE22CB84B000BA629A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF386BC22CB84B000BA629A /* Main.storyboard */; };
-		FFF386C022CB84B300BA629A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF386BF22CB84B300BA629A /* Assets.xcassets */; };
-		FFF386C322CB84B300BA629A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF386C122CB84B300BA629A /* LaunchScreen.storyboard */; };
+		FFF386D922CB8FFE00BA629A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF386D822CB8FFE00BA629A /* AppDelegate.swift */; };
+		FFF386DB22CB8FFE00BA629A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF386DA22CB8FFE00BA629A /* ViewController.swift */; };
+		FFF386DE22CB8FFE00BA629A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF386DC22CB8FFE00BA629A /* Main.storyboard */; };
+		FFF386E022CB8FFF00BA629A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF386DF22CB8FFF00BA629A /* Assets.xcassets */; };
+		FFF386E322CB8FFF00BA629A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF386E122CB8FFF00BA629A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FFF386B522CB84B000BA629A /* Simple Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFF386B822CB84B000BA629A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFF386BA22CB84B000BA629A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFF386BD22CB84B000BA629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFF386BF22CB84B300BA629A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFF386C222CB84B300BA629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FFF386C422CB84B300BA629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF386D522CB8FFE00BA629A /* Simple Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF386D822CB8FFE00BA629A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF386DA22CB8FFE00BA629A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF386DD22CB8FFE00BA629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF386DF22CB8FFF00BA629A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF386E222CB8FFF00BA629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF386E422CB8FFF00BA629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FFF386B222CB84B000BA629A /* Frameworks */ = {
+		FFF386D222CB8FFE00BA629A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FFF386AC22CB84B000BA629A = {
+		FFF386CC22CB8FFE00BA629A = {
 			isa = PBXGroup;
 			children = (
-				FFF386B722CB84B000BA629A /* Simple Game */,
-				FFF386B622CB84B000BA629A /* Products */,
+				FFF386D722CB8FFE00BA629A /* Simple Game */,
+				FFF386D622CB8FFE00BA629A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FFF386B622CB84B000BA629A /* Products */ = {
+		FFF386D622CB8FFE00BA629A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFF386B522CB84B000BA629A /* Simple Game.app */,
+				FFF386D522CB8FFE00BA629A /* Simple Game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FFF386B722CB84B000BA629A /* Simple Game */ = {
+		FFF386D722CB8FFE00BA629A /* Simple Game */ = {
 			isa = PBXGroup;
 			children = (
-				FFF386B822CB84B000BA629A /* AppDelegate.swift */,
-				FFF386BA22CB84B000BA629A /* ViewController.swift */,
-				FFF386BC22CB84B000BA629A /* Main.storyboard */,
-				FFF386BF22CB84B300BA629A /* Assets.xcassets */,
-				FFF386C122CB84B300BA629A /* LaunchScreen.storyboard */,
-				FFF386C422CB84B300BA629A /* Info.plist */,
+				FFF386D822CB8FFE00BA629A /* AppDelegate.swift */,
+				FFF386DA22CB8FFE00BA629A /* ViewController.swift */,
+				FFF386DC22CB8FFE00BA629A /* Main.storyboard */,
+				FFF386DF22CB8FFF00BA629A /* Assets.xcassets */,
+				FFF386E122CB8FFF00BA629A /* LaunchScreen.storyboard */,
+				FFF386E422CB8FFF00BA629A /* Info.plist */,
 			);
 			path = "Simple Game";
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFF386B422CB84B000BA629A /* Simple Game */ = {
+		FFF386D422CB8FFE00BA629A /* Simple Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFF386C722CB84B300BA629A /* Build configuration list for PBXNativeTarget "Simple Game" */;
+			buildConfigurationList = FFF386E722CB8FFF00BA629A /* Build configuration list for PBXNativeTarget "Simple Game" */;
 			buildPhases = (
-				FFF386B122CB84B000BA629A /* Sources */,
-				FFF386B222CB84B000BA629A /* Frameworks */,
-				FFF386B322CB84B000BA629A /* Resources */,
+				FFF386D122CB8FFE00BA629A /* Sources */,
+				FFF386D222CB8FFE00BA629A /* Frameworks */,
+				FFF386D322CB8FFE00BA629A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +81,25 @@
 			);
 			name = "Simple Game";
 			productName = "Simple Game";
-			productReference = FFF386B522CB84B000BA629A /* Simple Game.app */;
+			productReference = FFF386D522CB8FFE00BA629A /* Simple Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FFF386AD22CB84B000BA629A /* Project object */ = {
+		FFF386CD22CB8FFE00BA629A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Natalia Kazakova";
 				TargetAttributes = {
-					FFF386B422CB84B000BA629A = {
+					FFF386D422CB8FFE00BA629A = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = FFF386B022CB84B000BA629A /* Build configuration list for PBXProject "Simple Game" */;
+			buildConfigurationList = FFF386D022CB8FFE00BA629A /* Build configuration list for PBXProject "Simple Game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = FFF386AC22CB84B000BA629A;
-			productRefGroup = FFF386B622CB84B000BA629A /* Products */;
+			mainGroup = FFF386CC22CB8FFE00BA629A;
+			productRefGroup = FFF386D622CB8FFE00BA629A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFF386B422CB84B000BA629A /* Simple Game */,
+				FFF386D422CB8FFE00BA629A /* Simple Game */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FFF386B322CB84B000BA629A /* Resources */ = {
+		FFF386D322CB8FFE00BA629A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF386C322CB84B300BA629A /* LaunchScreen.storyboard in Resources */,
-				FFF386C022CB84B300BA629A /* Assets.xcassets in Resources */,
-				FFF386BE22CB84B000BA629A /* Main.storyboard in Resources */,
+				FFF386E322CB8FFF00BA629A /* LaunchScreen.storyboard in Resources */,
+				FFF386E022CB8FFF00BA629A /* Assets.xcassets in Resources */,
+				FFF386DE22CB8FFE00BA629A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FFF386B122CB84B000BA629A /* Sources */ = {
+		FFF386D122CB8FFE00BA629A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF386BB22CB84B000BA629A /* ViewController.swift in Sources */,
-				FFF386B922CB84B000BA629A /* AppDelegate.swift in Sources */,
+				FFF386DB22CB8FFE00BA629A /* ViewController.swift in Sources */,
+				FFF386D922CB8FFE00BA629A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FFF386BC22CB84B000BA629A /* Main.storyboard */ = {
+		FFF386DC22CB8FFE00BA629A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FFF386BD22CB84B000BA629A /* Base */,
+				FFF386DD22CB8FFE00BA629A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FFF386C122CB84B300BA629A /* LaunchScreen.storyboard */ = {
+		FFF386E122CB8FFF00BA629A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FFF386C222CB84B300BA629A /* Base */,
+				FFF386E222CB8FFF00BA629A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FFF386C522CB84B300BA629A /* Debug */ = {
+		FFF386E522CB8FFF00BA629A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		FFF386C622CB84B300BA629A /* Release */ = {
+		FFF386E622CB8FFF00BA629A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,11 +278,12 @@
 			};
 			name = Release;
 		};
-		FFF386C822CB84B300BA629A /* Debug */ = {
+		FFF386E822CB8FFF00BA629A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLVL4AD94D;
 				INFOPLIST_FILE = "Simple Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,15 +292,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kazakovanet.Simple-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		FFF386C922CB84B300BA629A /* Release */ = {
+		FFF386E922CB8FFF00BA629A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLVL4AD94D;
 				INFOPLIST_FILE = "Simple Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,32 +310,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kazakovanet.Simple-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFF386B022CB84B000BA629A /* Build configuration list for PBXProject "Simple Game" */ = {
+		FFF386D022CB8FFE00BA629A /* Build configuration list for PBXProject "Simple Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFF386C522CB84B300BA629A /* Debug */,
-				FFF386C622CB84B300BA629A /* Release */,
+				FFF386E522CB8FFF00BA629A /* Debug */,
+				FFF386E622CB8FFF00BA629A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFF386C722CB84B300BA629A /* Build configuration list for PBXNativeTarget "Simple Game" */ = {
+		FFF386E722CB8FFF00BA629A /* Build configuration list for PBXNativeTarget "Simple Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFF386C822CB84B300BA629A /* Debug */,
-				FFF386C922CB84B300BA629A /* Release */,
+				FFF386E822CB8FFF00BA629A /* Debug */,
+				FFF386E922CB8FFF00BA629A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FFF386AD22CB84B000BA629A /* Project object */;
+	rootObject = FFF386CD22CB8FFE00BA629A /* Project object */;
 }

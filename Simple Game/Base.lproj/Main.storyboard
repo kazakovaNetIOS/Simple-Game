@@ -17,12 +17,94 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Время: 30 сек." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rog-jw-Lxc">
+                                <rect key="frame" x="16" y="32" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" maximumValue="100" stepValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="gga-re-jtT">
+                                <rect key="frame" x="265" y="28" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepperChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="bAe-NN-QbC"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Последний счет: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opc-ny-uSt">
+                                <rect key="frame" x="113" y="626" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yD4-cP-tnn">
+                                <rect key="frame" x="16" y="99" width="343" height="511"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="uDa-jS-m2m">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="IOy-ar-bS0"/>
+                                            <constraint firstAttribute="width" constant="80" id="j3L-Yl-IdU"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="7Yu-3u-rA0" appends="YES" id="Tbn-dJ-0Wn"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="uDa-jS-m2m" firstAttribute="leading" secondItem="yD4-cP-tnn" secondAttribute="leading" id="5RD-vD-qxL"/>
+                                    <constraint firstItem="uDa-jS-m2m" firstAttribute="top" secondItem="yD4-cP-tnn" secondAttribute="top" id="Gdh-y3-dZU"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Myw-uX-fQU">
+                                <rect key="frame" x="162" y="61" width="51" height="30"/>
+                                <state key="normal" title="Начать"/>
+                                <connections>
+                                    <action selector="actionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Lp-Kk-PNO"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rog-jw-Lxc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1zy-D5-EzF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Opc-ny-uSt" secondAttribute="bottom" constant="20" id="2yB-Rj-F1i"/>
+                            <constraint firstItem="Opc-ny-uSt" firstAttribute="top" secondItem="yD4-cP-tnn" secondAttribute="bottom" constant="16" id="6OH-pe-M4J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gga-re-jtT" secondAttribute="trailing" constant="16" id="9EJ-zM-6gG"/>
+                            <constraint firstItem="gga-re-jtT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rog-jw-Lxc" secondAttribute="trailing" constant="8" symbolic="YES" id="Bc5-q4-jT8"/>
+                            <constraint firstItem="Myw-uX-fQU" firstAttribute="top" secondItem="gga-re-jtT" secondAttribute="bottom" constant="4" id="M13-jE-iaP"/>
+                            <constraint firstItem="Opc-ny-uSt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OZb-le-Y3h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yD4-cP-tnn" secondAttribute="trailing" constant="16" id="eDU-J3-aKo"/>
+                            <constraint firstItem="yD4-cP-tnn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gAL-MR-H1y"/>
+                            <constraint firstItem="Myw-uX-fQU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ieV-uD-ybM"/>
+                            <constraint firstItem="yD4-cP-tnn" firstAttribute="top" secondItem="Myw-uX-fQU" secondAttribute="bottom" constant="8" id="nyx-63-k1F"/>
+                            <constraint firstItem="gga-re-jtT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="pTp-BJ-oI3"/>
+                            <constraint firstItem="rog-jw-Lxc" firstAttribute="centerY" secondItem="gga-re-jtT" secondAttribute="centerY" id="xG9-bo-jqG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="actionButton" destination="Myw-uX-fQU" id="jKc-O2-I0x"/>
+                        <outlet property="gameFieldView" destination="yD4-cP-tnn" id="AZM-Qw-oCG"/>
+                        <outlet property="gameObject" destination="uDa-jS-m2m" id="9Kz-96-4oN"/>
+                        <outlet property="scoreLabel" destination="Opc-ny-uSt" id="yw5-iN-Uih"/>
+                        <outlet property="shapeX" destination="5RD-vD-qxL" id="mTT-Br-URh"/>
+                        <outlet property="shapeY" destination="Gdh-y3-dZU" id="iuM-mr-sUl"/>
+                        <outlet property="stepper" destination="gga-re-jtT" id="Mbg-dn-iEx"/>
+                        <outlet property="timeLabel" destination="rog-jw-Lxc" id="ICF-CP-RB0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="7Yu-3u-rA0">
+                    <connections>
+                        <action selector="objectTapped:" destination="BYZ-38-t0r" id="sdQ-Kc-B9R"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="butterfly" width="100" height="100"/>
+    </resources>
 </document>

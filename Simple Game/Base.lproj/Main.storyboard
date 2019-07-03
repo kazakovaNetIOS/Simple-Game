@@ -36,26 +36,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yD4-cP-tnn">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yD4-cP-tnn" customClass="GameFieldView" customModule="Simple_Game" customModuleProvider="target">
                                 <rect key="frame" x="16" y="99" width="343" height="511"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="uDa-jS-m2m">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                        <gestureRecognizers/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="IOy-ar-bS0"/>
-                                            <constraint firstAttribute="width" constant="80" id="j3L-Yl-IdU"/>
-                                        </constraints>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="7Yu-3u-rA0" appends="YES" id="Tbn-dJ-0Wn"/>
-                                        </connections>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="uDa-jS-m2m" firstAttribute="leading" secondItem="yD4-cP-tnn" secondAttribute="leading" id="5RD-vD-qxL"/>
-                                    <constraint firstItem="uDa-jS-m2m" firstAttribute="top" secondItem="yD4-cP-tnn" secondAttribute="top" id="Gdh-y3-dZU"/>
-                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shapeSize">
+                                        <size key="value" width="80" height="80"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Myw-uX-fQU">
                                 <rect key="frame" x="162" y="61" width="51" height="30"/>
@@ -86,10 +74,7 @@
                     <connections>
                         <outlet property="actionButton" destination="Myw-uX-fQU" id="jKc-O2-I0x"/>
                         <outlet property="gameFieldView" destination="yD4-cP-tnn" id="AZM-Qw-oCG"/>
-                        <outlet property="gameObject" destination="uDa-jS-m2m" id="9Kz-96-4oN"/>
                         <outlet property="scoreLabel" destination="Opc-ny-uSt" id="yw5-iN-Uih"/>
-                        <outlet property="shapeX" destination="5RD-vD-qxL" id="mTT-Br-URh"/>
-                        <outlet property="shapeY" destination="Gdh-y3-dZU" id="iuM-mr-sUl"/>
                         <outlet property="stepper" destination="gga-re-jtT" id="Mbg-dn-iEx"/>
                         <outlet property="timeLabel" destination="rog-jw-Lxc" id="ICF-CP-RB0"/>
                     </connections>
@@ -104,7 +89,4 @@
             <point key="canvasLocation" x="138.40000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="butterfly" width="100" height="100"/>
-    </resources>
 </document>

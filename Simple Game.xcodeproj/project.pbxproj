@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FF80DA8322CD00B7007CC61D /* GameFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80DA8222CD00B7007CC61D /* GameFieldView.swift */; };
+		FF80DA8522CD11F6007CC61D /* GameControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF80DA8422CD11F6007CC61D /* GameControlView.xib */; };
+		FF80DA8722CD1634007CC61D /* GameControlViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80DA8622CD1634007CC61D /* GameControlViewClass.swift */; };
 		FFF386D922CB8FFE00BA629A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF386D822CB8FFE00BA629A /* AppDelegate.swift */; };
 		FFF386DB22CB8FFE00BA629A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF386DA22CB8FFE00BA629A /* ViewController.swift */; };
 		FFF386DE22CB8FFE00BA629A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF386DC22CB8FFE00BA629A /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		FF80DA8222CD00B7007CC61D /* GameFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFieldView.swift; sourceTree = "<group>"; };
+		FF80DA8422CD11F6007CC61D /* GameControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameControlView.xib; sourceTree = "<group>"; };
+		FF80DA8622CD1634007CC61D /* GameControlViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControlViewClass.swift; sourceTree = "<group>"; };
 		FFF386D522CB8FFE00BA629A /* Simple Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF386D822CB8FFE00BA629A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF386DA22CB8FFE00BA629A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				FFF386D822CB8FFE00BA629A /* AppDelegate.swift */,
 				FFF386DA22CB8FFE00BA629A /* ViewController.swift */,
 				FFF386DC22CB8FFE00BA629A /* Main.storyboard */,
+				FF80DA8622CD1634007CC61D /* GameControlViewClass.swift */,
 				FF80DA8222CD00B7007CC61D /* GameFieldView.swift */,
 				FFF386DF22CB8FFF00BA629A /* Assets.xcassets */,
 				FFF386E122CB8FFF00BA629A /* LaunchScreen.storyboard */,
 				FFF386E422CB8FFF00BA629A /* Info.plist */,
+				FF80DA8422CD11F6007CC61D /* GameControlView.xib */,
 			);
 			path = "Simple Game";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				FFF386E322CB8FFF00BA629A /* LaunchScreen.storyboard in Resources */,
 				FFF386E022CB8FFF00BA629A /* Assets.xcassets in Resources */,
+				FF80DA8522CD11F6007CC61D /* GameControlView.xib in Resources */,
 				FFF386DE22CB8FFE00BA629A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF80DA8722CD1634007CC61D /* GameControlViewClass.swift in Sources */,
 				FF80DA8322CD00B7007CC61D /* GameFieldView.swift in Sources */,
 				FFF386DB22CB8FFE00BA629A /* ViewController.swift in Sources */,
 				FFF386D922CB8FFE00BA629A /* AppDelegate.swift in Sources */,

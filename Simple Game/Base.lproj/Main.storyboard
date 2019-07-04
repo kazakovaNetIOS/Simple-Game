@@ -24,8 +24,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yD4-cP-tnn" customClass="GameFieldView" customModule="Simple_Game" customModuleProvider="target">
-                                <rect key="frame" x="16" y="99" width="343" height="511"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yD4-cP-tnn" customClass="GameFieldView" customModule="Simple_Game" customModuleProvider="target">
+                                <rect key="frame" x="16" y="107" width="343" height="503"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="shapeSize">
@@ -33,8 +33,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4gG-fz-TYf" customClass="GameControlViewClass" customModule="Simple_Game" customModuleProvider="target">
-                                <rect key="frame" x="16" y="20" width="343" height="71"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gG-fz-TYf" customClass="GameControlViewClass" customModule="Simple_Game" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="343" height="71"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -46,9 +46,11 @@
                             <constraint firstItem="4gG-fz-TYf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UGW-FU-OSN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yD4-cP-tnn" secondAttribute="trailing" constant="16" id="eDU-J3-aKo"/>
                             <constraint firstItem="yD4-cP-tnn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gAL-MR-H1y"/>
-                            <constraint firstItem="4gG-fz-TYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oRY-po-Ot5"/>
+                            <constraint firstItem="4gG-fz-TYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="q2V-WI-Teo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4gG-fz-TYf" secondAttribute="trailing" constant="16" id="tWE-2r-5Bb"/>
+                            <constraint firstItem="4gG-fz-TYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="uqc-0Q-fHo"/>
                             <constraint firstItem="yD4-cP-tnn" firstAttribute="top" secondItem="4gG-fz-TYf" secondAttribute="bottom" constant="8" id="y2F-HG-fbx"/>
+                            <constraint firstItem="4gG-fz-TYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="z1S-E1-zhM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
